@@ -13,3 +13,6 @@ app.get('/hello', function (req, res) {
     res.send('<h1>Hello Login</h1>')
   })
 
+  app.listen(SERVER_PORT ,() => {
+    console.log(Server Running at http://localhost:${SERVER_PORT}/)	
+  })
